@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "edudash-requests",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-30",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "edudash-requests-db",
+      "database_id": "91954fa7-7f06-4de9-bdd0-8e7abb423481"
+    }
+  ]
+}
